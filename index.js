@@ -8,7 +8,7 @@ export default function PersonalWebsite() {
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white">
 
       <nav className="flex justify-between items-center p-6 max-w-6xl mx-auto">
-        <h1 className="text-2x2 ">Shafaeth.dev</h1>
+        <h1 className="text-2x1 ">Shafaeth.dev</h1>
         <div className="space-x-6 hidden md:flex">
           <a href="#home" className="hover:text-purple-400">Home</a>
           <a href="#about" className="hover:text-purple-400">About</a>
@@ -24,7 +24,7 @@ export default function PersonalWebsite() {
           transition={{ duration: 1 }}
           className="text-5xl font-extrabold mb-6"
         >
-          Hi, I'm <span className="text-purple-400">Shafaeth</span> 👩‍💻
+          Hi, I'm <span className="text-purple-400">Shafaeth</span>
         </motion.h2>
         <motion.p
           initial={{ opacity: 0 }}
